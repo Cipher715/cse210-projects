@@ -4,11 +4,12 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.Write("What is your magic number? ");
-        string userInput = Console.ReadLine();
-        int number = int.Parse(userInput);
+        Random rnd = new Random();
+        int number = rnd.Next(0, 101);
         string userGuess;
-        int guess = number - 1;
+        int guess = -1;
+        Console.WriteLine("Random number between 0 - 100 is generated.");
+
         while (number != guess){
             Console.Write("What is your guess? ");
             userGuess = Console.ReadLine();
