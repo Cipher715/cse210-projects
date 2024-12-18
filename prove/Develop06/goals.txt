@@ -1,0 +1,4 @@
+800
+SimpleGoal:Give a talk,speak in sacrament meeting,100,True
+EternalGoal:Study scriptures,for 10 mins,50
+ChecklistGoal:Attend temple,perform an ordinance,50,500,3,3
